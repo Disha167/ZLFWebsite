@@ -1,0 +1,54 @@
+.bott{
+    margin: 0;
+    padding:10px 0;
+    border: none;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: fit-content;
+    border-radius: 60px;
+    border: 2px solid orangered;
+}
+.bott::before{
+    content: '';
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    background: orangered;
+    position: absolute;
+    top: -100px;
+    left: -10px;
+    transition: all .3s;
+}
+.bttn{
+    position: relative;
+    z-index: 2;
+    padding: 10px 40px;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+.bttn:hover{
+    color: #fff;
+    background: orangered;
+}
+.bott::before{
+animation: up-down 10s linear infinite alternate-reverse both;}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(400px);
+    }
+    100% {
+      transform: translateY(-400px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(400px);
+    }
+    100% {
+      transform: translateY(-400px);
+    }
+  }
