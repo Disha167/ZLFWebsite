@@ -2,7 +2,8 @@ async function get_TRX_ZLF(){
     const response =await fetch('https://nolexserver.com/api/v1/tickers?ticker_id=ZLF_TRX');
     const data = await response.json();
     const price_ZLF = data.last_price;
-    document.getElementById('ZLF').textContent = price_ZLF;
+    const input = document.getElementById('TRX_inp').value;
+    document.getElementById('ZLX_rate').textContent = input * price_ZLF;
 };
 
 async function get_ZLF_INR(){
@@ -11,8 +12,13 @@ async function get_ZLF_INR(){
     const response =await fetch(proxyUrl + targetUrl);
     const data = await response.json();
     const price_INR = data.trxinr.last;
-    document.getElementById('INR').textContent = price_INR;
+    const input = document.getElementById('TRX_inp').value;
+    document.getElementById('INR_rate').textContent = input * price_INR;
     };
 
-get_TRX_ZLF();
-get_ZLF_INR();
+
+
+function Conversion(){
+    get_TRX_ZLF();
+    get_ZLF_INR();
+}
