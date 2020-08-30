@@ -1,0 +1,32 @@
+.portfolio .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio .content ul li {
+    padding-left: 28px;
+    position: relative;
+  }
+  
+  .portfolio .content ul li + li {
+    margin-top: 10px;
+  }
+  
+  .portfolio .content ul i::before {content: "❑"; color: rgb(8, 8, 8);
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+ /* .portfolio .content ul i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #3498db;
+    line-height: 1;
+  }*/
+  
+  .portfolio .content p:last-child {
+    margin-bottom: 0;
+  }
+  h2{
+   text-align: center;
+  }
