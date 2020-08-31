@@ -12,9 +12,17 @@
     margin-top: 10px;
   }
   
-  .portfolio .content ul i::before {content: "❑"; color: rgb(8, 8, 8);
+  .portfolio .content ul i::before {
+    content: "❑"; color: rgb(8, 8, 8);
     display: inline-block; width: 1em;
-    margin-left: -1em}
+    /*margin-left: -1em;*/
+    position: absolute;
+    left: 0;
+    top: 2px;
+    right=0;
+    line-height: 1;
+    font-size: 20px;
+  }
  /* .portfolio .content ul i {
     position: absolute;
     left: 0;
