@@ -587,15 +587,19 @@ section {
 .about .content ul li + li {
   margin-top: 10px;
 }
-
 .about .content ul i {
+content: "❑"; color: rgb(8, 8, 8);
+display: inline-block; width: 1em;
+/*margin-left: -1em;*/
+}
+/*.about .content ul i {
   position: absolute;
   left: 0;
   top: 2px;
   font-size: 20px;
   color: #3498db;
   line-height: 1;
-}
+}*/
 
 .about .content p:last-child {
   margin-bottom: 0;
