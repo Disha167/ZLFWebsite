@@ -633,10 +633,14 @@ section {
 .about .content ul li + li {
   margin-top: 10px;
 }
-.about .content ul i {
-content: "❑"; color: rgb(8, 8, 8);
-display: inline-block; width: 1em;
+.about .content ul i::before{
+content: "❑";
+color: rgb(8, 8, 8);
+display: inline-block;
+ width: 1em;
+ left: 0;
 /*margin-left: -1em;*/
+position: absolute;
 }
 /*.about .content ul i {
   position: absolute;
@@ -673,6 +677,7 @@ display: inline-block; width: 1em;
   color: #fff;
   text-decoration: none;
 }
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -1372,7 +1377,7 @@ display: inline-block; width: 1em;
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq .faq-item {
+/*.faq .faq-item {
   margin: 20px 0;
   padding: 20px 0;
   border-bottom: 1px solid #eeeeee;
@@ -1397,6 +1402,21 @@ display: inline-block; width: 1em;
 
 .faq .faq-item p {
   font-size: 15px;
+}*/
+.faq .accordion .btn {
+padding: 0; 
+background: white;
+}
+
+.faq .accordion .btn i:: before {
+  content: "❑";
+  color: rgb(8, 8, 8);
+  display: inline-block;
+   width: 1em;
+   left: 0;
+  margin-left: -1em;
+  position: absolute;
+  }
 }
 
 /*--------------------------------------------------------------
