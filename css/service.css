@@ -106,12 +106,40 @@
   box-sizing: border-box;
 }
 
+.section-title{
+  margin-bottom: 70px;
+  margin-top: 0px;
+}
+
 .services .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  padding:10px;
 }
 
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services  ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.services ul li + li {
+  margin-top: 10px;
+}
+.services ul i::before{
+content: "❑";
+color: #fff;
+display: inline-block;
+ width: 1em;
+ left: 0;
+/*margin-left: -1em;*/
+position: absolute;
+}
 
 .services .title {
   font-weight: 700;
@@ -147,7 +175,7 @@
 .team .team_member{
   background: #3498db;
   margin: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
  
   padding: 20px;
   line-height: 20px;
@@ -158,7 +186,7 @@
 .team .team_member h3{
   color: #fff;
   font-size: 26px;
-  margin-top: 50px;
+  margin-top: 70px;
   text-align: center;
 }
 
@@ -171,7 +199,7 @@
 
 .team .team_member .team_img{
   position: absolute;
-  top: -50px;
+  top: -80px;
   left: 50%;
   transform: translateX(-50%);
  
@@ -180,8 +208,8 @@
 }
 
 .team .team_member .team_img img{
-  width: 100px;
-  height: 100px;
+  width: 270px;
+  height: 150px;
   padding: 5px;
   border-radius: 50%;
 }
