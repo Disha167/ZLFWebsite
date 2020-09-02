@@ -10,11 +10,11 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="img/icon.jpeg" rel="icon">
-  <!-- <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link href="img/icon.png" rel="icon">
+  <link href="img/apple-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleexchanges.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Other CSS Files -->
   <link href="others/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +27,6 @@
 
   <!-- Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
-
-
-  <script src="api.js"></script>
   
 </head>
 
@@ -40,38 +37,24 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <!-- <h1 class="text-light"><a href="index.html"><span>LOGO</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="img/logoss.png" alt="" class="img-fluid logo"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#index.html">Home</a></li>
+          <li class="drop-down"><a href="#exchange">Exchange</a>
+            <ul>
+              <li><a href="https://nolex.org/main/ZLFTRX.html">Nolex</a></li>
+              <li><a href="#">Other</a></li>
+            </ul>
+          </li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <!-- <li><a href="#pricing">Pricing</a></li> -->
-          <li class="drop-down"><a href="">Exchange</a>
-            <ul>
-              <li><a href="https://nolex.org/main/ZLFTRX.html">Nolex</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <!-- <li><a href="#">Deep Drop Down 3</a></li> -->
-                  <!-- <li><a href="#">Deep Drop Down 4</a></li> -->
-                  <!-- <li><a href="#">Deep Drop Down 5</a></li> -->
-                </ul>
-              </li>
-              <!-- <li><a href="#">Drop Down 3</a></li> -->
-              <!-- <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li> -->
-            </ul>
-          </li>
           <li><a href="#contact">Contact</a></li>
-
+          <li><a href="events.html">News & Events</a></li>
           <li class="get-started"><a href="#about">Get Started</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -92,7 +75,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="img/43802.jpg" class="img-fluid animated" alt="">
+          <img src="img/600.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -101,53 +84,12 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients clients"> 
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
-          </div>
-
-        </div>
-
-      </div>
-    </section>--><!-- End Clients Section -->
-
-    <!-- =======  API ======= -->
-    <div id="api" class="api">
-      
-         
-           
-              <!-- <input type="text" placeholder="0" id="ZLX_rate" /> -->
+    <!-- =======  Exchange ======= -->
+    <div id="exchange" class="exchange">
       <marquee scrollamount="10" behavior="scroll" direction="left">
         <p class=''><strong>ZLF/TRX : <span id = "ZLX_rate"></span> &emsp; &emsp; &emsp; &emsp; ZLF/INR : <span id = "INR_rate"></span> </strong></p>
       </marquee>
-      
-      
-        </div>
+    </div>
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
@@ -238,55 +180,10 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Services Section ======= -->
-      <!-- <section id="services" class="services">
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
-        </div>
-
-      <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" >
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" >
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" >
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" >
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>-->
 
     <!-- ======= More Services Section ======= -->
-    <section id="more-services" class="more-services">
+    <section id="services" class="services">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
@@ -336,92 +233,7 @@
       </div>
     </section><!-- End More Services Section -->
 
-    <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features"> 
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Features</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Lorem Ipsum</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">Dolor Sitema</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">Sed perspiciatis</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">Magni Dolores</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">Nemo Enim</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">Eiusmod Tempor</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">Midela Teren</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">Pira Neve</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">Dirada Pack</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">Moton Ideal</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">Verdo Park</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">Flavor Nivelanda</a></h3>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>--><!-- End Features Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -445,7 +257,7 @@
               <h4>Ceo &amp; Founder</h4>
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Just bought some ZLF, has seen a rapid increase in the value of it, looks like there is a good future for this, and Syed helped me a lot on this...
+                Just bought some ZLF, has seen a rexchanged increase in the value of it, looks like there is a good future for this, and Syed helped me a lot on this...
 	              looking forward for increasing my portfolio in ZLF.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
@@ -474,7 +286,7 @@
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                 This was my first step into the Cryptocurrency world and for the first time when trading I have felt confident in my decisions. 
-                I have just made 2 times on my trading capital under 2 months. It is due to the ZLF family‘s support and mentoring that I am able to pursue my bigger moves.
+                I have just made 2 times on my trading cexchangetal under 2 months. It is due to the ZLF family‘s support and mentoring that I am able to pursue my bigger moves.
               
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
@@ -770,72 +582,7 @@
       </div><!--container-->
     </section><!-- End Team Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing"> 
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Sit sint consectetur velit nemo qui impedit suscipit alias ea</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in-left" data-aos-delay="200">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>--><!-- End Pricing Section -->
+    
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
@@ -845,67 +592,6 @@
           <h2>FAQs</h2>
         </div>
 
-        <!--<div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-5">
-            <i class="ri-question-line"></i>
-            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
-          </div>
-          <div class="col-lg-7">
-            <p>
-              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-            </p>
-          </div>
-        </div>--><!-- End F.A.Q Item-->
-
-        <!--<div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-5">
-            <i class="ri-question-line"></i>
-            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
-          </div>
-          <div class="col-lg-7">
-            <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-            </p>
-          </div>
-        </div>--><!-- End F.A.Q Item-->
-
-        <!--<div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-5">
-            <i class="ri-question-line"></i>
-            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
-          </div>
-          <div class="col-lg-7">
-            <p>
-              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
-            </p>
-          </div>
-        </div>--><!-- End F.A.Q Item-->
-
-        <!--<div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-          <div class="col-lg-5">
-            <i class="ri-question-line"></i>
-            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
-          </div>
-          <div class="col-lg-7">
-            <p>
-              Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
-            </p>
-          </div>
-        </div>--><!-- End F.A.Q Item-->
-
-        <!--<div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
-          <div class="col-lg-5">
-            <i class="ri-question-line"></i>
-            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
-          </div>
-          <div class="col-lg-7">
-            <p>
-              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-            </p>
-          </div>
-        </div>--><!-- End F.A.Q Item-->
-
-      <!--/div>-->
       <div class="accordion" id="accordionExample" >
         <div class="card" data-aos="fade-up">
           <div class="card-header" id="headingOne">
@@ -1109,9 +795,7 @@
           <div class="copyright">
             &copy; Copyright <strong>ZLF Pvt. Ltd.</strong>. All Rights Reserved 2020
           </div>
-          <!-- <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div> -->
+          
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
@@ -1141,6 +825,7 @@
   <script src="others/typed.js/typed.min.js"></script>
   <!-- Main JS File -->
   <script src="js/main.js"></script>
+  <script src="js/exchange.js"></script>
   
 
 </body>
