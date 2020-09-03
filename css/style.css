@@ -917,7 +917,7 @@ position: absolute;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/*.portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -1035,7 +1035,7 @@ position: absolute;
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
-
+*/
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
