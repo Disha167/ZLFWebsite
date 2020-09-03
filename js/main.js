@@ -4,6 +4,10 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+
 !(function($) {
   "use strict";
 
@@ -99,7 +103,7 @@
       var top = $(this).offset().top,
         bottom = top + $(this).outerHeight();
 
-      if (cur_pos >= top && cur_pos <= bottom) {
+      if (cur_pos >= top && cur_pos <= bottom && page == 'index.html') {
         if (cur_pos <= bottom) {
           main_nav.find('li').removeClass('active');
         }
