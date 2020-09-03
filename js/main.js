@@ -180,6 +180,13 @@ var page = path.split("/").pop();
       }
     }
   });
+  // $(".testimonials-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   items: 1
+  // });
+
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
