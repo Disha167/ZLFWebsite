@@ -1516,6 +1516,7 @@
 [0903/002108.604:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/002108.604:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/002108.604:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0903/004150.147:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/004150.147:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/004150.147:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -1636,3 +1637,17 @@
 [0903/181139.748:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/181139.748:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0903/181139.748:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+>>>>>>> parent of d7d550e... cleared index
+[0903/182039.003:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182039.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182039.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182039.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182039.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182039.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.571:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.572:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.572:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.572:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.572:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0903/182745.572:ERROR:crash_report_database_win.cc(469)] failed to stat report
