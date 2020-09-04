@@ -833,9 +833,6 @@ position: absolute;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services {
-  /* padding-top: 20px; */
-}
 
 .services .card {
   border: 0;
@@ -1807,4 +1804,39 @@ position: absolute;
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+
+.foot-head {
+  text-align: center;
+
+}
+
+.foot-head h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  
+}
+
+.foot-head h3::before, .foot-head h3::after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.foot-head h3::before {
+  margin: 0 15px 10px 0;
+}
+
+.foot-head h3::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 15px 0 0 0;
 }
