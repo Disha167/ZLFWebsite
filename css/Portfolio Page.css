@@ -23,6 +23,12 @@
     line-height: 1;
     font-size: 20px;
   }
+
+  .portfolio .content .catchy-line{
+    font-family: 'Parisienne', cursive;
+    font-size:25px ;
+    font-weight: bold;
+  }
  /* .portfolio .content ul i {
     position: absolute;
     left: 0;
@@ -165,4 +171,8 @@
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+}
+h2{
+  font-weight: bold;
+  padding:10px;
 }
