@@ -15,14 +15,15 @@
     #about_seperate .col-lg-7 img {
         text-align: center;
         width: 100%;
-        height: min-content;
+        height: max-content;
+        
     }
   }
   
   @media (max-width: 575px) {
     #about_seperate .col-lg-7 img {
       width: 100%;
-      height: min-content;
+      /* height: min-content; */
       
     }
   }

@@ -1,4 +1,3 @@
-/* FontAwesome for working BootSnippet :> */
 #team {
     box-shadow: none;
 }
@@ -138,6 +137,12 @@
 }
 
 @media(min-width:575px)
+{
+    .frontside .card{
+        margin-bottom: 6rem;
+    }
+}
+@media(min-width:768px)
 {
     .frontside .card{
         margin-bottom: 8rem;
