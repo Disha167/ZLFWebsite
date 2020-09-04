@@ -5,6 +5,8 @@
 --------------------------------------------------------------*/
 :root{
   --fc-pri:#9e72c2;
+  --fc-sec:#e3f1fc;
+  --fc-dark:rgb(184, 183, 183);
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -687,7 +689,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/blockchain.PNG") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/about_us_bg.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -887,6 +889,9 @@ position: absolute;
 
 .counts {
   padding-top: 80px;
+  background: var(--fc-dark);
+  position: relative;
+  z-index: -5;
 }
 
 .counts .count-box {
@@ -922,6 +927,7 @@ position: absolute;
 .counts .count-box p {
   padding: 0;
   margin: 0;
+  color: var(--fc-sec);
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
@@ -930,7 +936,9 @@ position: absolute;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-
+.services{
+  background: var(--fc-sec);
+}
 .services .card {
   border: 0;
   padding: 160px 20px 20px 20px;
@@ -1335,7 +1343,7 @@ position: absolute;
 }
 */
 #portfolio{
-  background: rgb(102, 100, 100);
+  background: var(--fc-dark);
 }
 .portfolio #portfolio-flters {
   list-style: none;
@@ -1429,6 +1437,9 @@ position: absolute;
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team{
+  background: var(--fc-sec);
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1531,6 +1542,9 @@ position: absolute;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq{
+  background:var(--fc-dark);
+}
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1614,6 +1628,9 @@ position: absolute;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background: var(--fc-sec);
+}
 #contact {
   padding: 60px 0;
 }
