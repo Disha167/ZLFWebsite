@@ -384,7 +384,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   border-bottom: 2px solid #3498db;
 }
-
+.buttons{
+  display: flex;
+}
+.gap{
+  margin-right: 10px;
+}
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -406,6 +411,108 @@ h1, h2, h3, h4, h5, h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+.play-btn {
+    
+  /* background: radial-gradient(#7cc576 30%, rgba(124, 197, 118, 0.4) 80%); */
+  display: block;
+  position: relative;
+  
+  z-index: 2;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.play-btn::after {
+  content: '';
+  position: absolute;
+  left: 49%;
+  top: 30%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #acddfd;
+  z-index: -1;
+  transform: scale(1.5);
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.play-btn::before {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius:50%;
+  border: 5px solid #7cbeeb;
+  top: -30%;
+  left: 29%;
+  background: rgba(198, 16, 0, 0);
+  z-index: -1;
+}
+
+.play-btn:hover::after {
+  border-left: 15px solid #3498db;
+  transform: scale(20);
+}
+
+.play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #000;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  transform: scale(1.4) translateY(-6px) translateX(-2px);
+  border-radius: 0;
+}
+
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+} 
 
 @media (min-width: 1024px) {
   #hero {
