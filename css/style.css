@@ -677,7 +677,7 @@ section {
   padding: 0;
   
   /* margin-top: 60px; */
-  background: rgb(255, 249, 240);
+  background: var(--fc-sec)
 }
 .exchange p{
   line-height: 40px;
@@ -691,9 +691,11 @@ section {
 .cta {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/about_us_bg.png") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 60px 0;
 }
-
+.cta h2{
+  color: #fff;
+}
 .cta h3 {
   color: #fff;
   font-size: 28px;
@@ -901,6 +903,7 @@ position: absolute;
   text-align: center;
   box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  background: #fff;
 }
 
 .counts .count-box i {
@@ -927,7 +930,7 @@ position: absolute;
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  color: var(--fc-sec);
+  /* color: var(--fc-sec); */
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
@@ -1560,7 +1563,7 @@ position: absolute;
 
 .faq .faq-list li {
   padding: 20px;
-  background: #000000;
+  background: #444;
   border-radius: 4px;
   position: relative;
 }
@@ -1603,7 +1606,7 @@ position: absolute;
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #fff;
   transition: 0.3s;
 }
 
