@@ -165,8 +165,6 @@ var page = path.split("/").pop();
 
   // Testimonials carousel (uses the Owl Carousel library)
   // $(".testimonials-carousel").owlCarousel({
-<<<<<<< HEAD
-=======
   //   autoplay: true,
   //   dots: true,
   //   loop: true,
@@ -182,12 +180,12 @@ var page = path.split("/").pop();
   //     }
   //   }
   // });
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
+  // $(".testimonials-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   items: 1
+  // });
 
 
   // // Porfolio isotope and filter
@@ -215,7 +213,6 @@ var page = path.split("/").pop();
 
   // // Portfolio details carousel
   // $(".portfolio-details-carousel").owlCarousel({
->>>>>>> 9eb80ae05697f66161d76b16f234086f2d197bc0
   //   autoplay: true,
   //   dots: true,
   //   loop: true,
