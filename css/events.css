@@ -12,6 +12,11 @@
   .events .content ul li {
     padding-left: 28px;
     position: relative;
+    display: inline-block;
+  }
+
+  .events .content ul li a{
+      color: #3498db;
   }
   
   .events .content ul li + li {
@@ -25,4 +30,7 @@
    left: 0;
   /*margin-left: -1em;*/
   position: absolute;
+  }
+  img{
+    padding-bottom: 50px;
   }

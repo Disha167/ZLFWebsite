@@ -106,10 +106,9 @@
   box-sizing: border-box;
 }
 
-.section-title{
-  margin-bottom: 70px;
-  margin-top: 0px;
-}
+/* .section-title{
+  padding-top: 90px;
+} */
 
 .services .description {
   font-size: 15px;
@@ -149,23 +148,23 @@ position: absolute;
 }
 
 .services{
-  background: white;
+  background: white !important;
 
 }
 
-.wrapper{
+/* .wrapper{
   margin-top: 10%;
-}
+} */
 
-.wrapper h1{
+.wrapper h2{
  
   font-size: 52px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   text-align: center;
 }
 
 .team{
-  
+  background: none !important;
   justify-content: center;
   
   
@@ -175,7 +174,7 @@ position: absolute;
 .team .team_member{
   background: #3498db;
   margin: 5px;
-  margin-bottom: 80px;
+  margin-top: 120px;
  
   padding: 20px;
   line-height: 20px;
@@ -199,7 +198,7 @@ position: absolute;
 
 .team .team_member .team_img{
   position: absolute;
-  top: -80px;
+  top: -120px;
   left: 50%;
   transform: translateX(-50%);
  
@@ -209,7 +208,7 @@ position: absolute;
 
 .team .team_member .team_img img{
   width: 270px;
-  height: 150px;
+  height: 200px;
   padding: 5px;
   border-radius: 50%;
 }

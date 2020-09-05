@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #222222;
+  color: #3498db;
 }
 
 .mobile-nav {
@@ -267,8 +267,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
-  transition: ease-in-out 0.2s;
+  background: #111;
+  transition: ease-in-out 0.3s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
@@ -276,15 +276,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav * {
+  display: flex;
+  flex-flow: column;
   margin: 0;
   padding: 0;
+  text-align: center;
   list-style: none;
+  
 }
 
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -346,10 +350,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(9, 9, 9, 0.6);
+  background: #444;
+   /* rgba(9, 9, 9, 0.6); */
   overflow: hidden;
   display: none;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .mobile-nav-active {
@@ -362,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: #3498db;
 }
 
 /*--------------------------------------------------------------
