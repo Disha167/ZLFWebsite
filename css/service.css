@@ -110,6 +110,12 @@
   padding-top: 90px;
 } */
 
+.catchy-line-in-service{
+  font-family: 'Parisienne', cursive;
+  font-size:30px ;
+  font-weight: bold;
+}
+
 .services .description {
   font-size: 15px;
   line-height: 28px;

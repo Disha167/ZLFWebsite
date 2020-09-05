@@ -45,6 +45,12 @@
    text-align: center;
   }
 
+  
+  .catchy-line-in-portfolio{
+    font-family: 'Parisienne', cursive;
+    font-size:30px ;
+    font-weight: bold;
+  }
   /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
