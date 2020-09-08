@@ -1,6 +1,7 @@
 .portfolio .content ul {
     list-style: none;
     padding: 0;
+    
   }
   
   .portfolio .content ul li {
@@ -205,4 +206,9 @@
 h2{
   font-weight: bold;
   padding:10px;
+}
+
+/*added to over-write in built css background*/
+body{
+  background: #fff;
 }
