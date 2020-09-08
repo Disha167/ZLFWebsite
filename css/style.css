@@ -1668,7 +1668,7 @@ position: absolute;
 }
 
 /*added css class for the twitter and reddit handles to appear in one line in one answer*/
-.faq .faq-list  #faq-list-7 .twitter-faq{
+.faq .faq-list  #faq-list-4 .twitter-faq{
   font-size: 18px;
   display: inline-block;
   background: #000;
@@ -1683,7 +1683,7 @@ position: absolute;
   transition: 0.3s;
 } 
 
-.faq .faq-list  #faq-list-7 .reddit-faq{
+.faq .faq-list  #faq-list-4 .reddit-faq{
   font-size: 18px;
   display: inline-block;
   background: #000;
@@ -1698,7 +1698,7 @@ position: absolute;
   transition: 0.3s;
 } 
 
-.faq .faq-list  #faq-list-7 .social-links-faq .faq-p-inline{
+.faq .faq-list  #faq-list-4 .social-links-faq .faq-p-inline{
   display: inline-block;
 }
 

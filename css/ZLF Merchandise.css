@@ -1,6 +1,6 @@
 .ZLF-Merchandise .content ul {
     list-style: none;
-    padding: 0;
+    padding: 0 20px;
   }
   
   .ZLF-Merchandise .content ul li {
@@ -28,7 +28,7 @@
       text-transform: uppercase;
     
       
-      font-size:44px;
+      font-size:42px;
       font-weight: bold;
      /* transform: scale(0.7, 1.7);*/
 
