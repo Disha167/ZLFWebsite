@@ -36,6 +36,20 @@
 
   .ZLF-Talks .content .ZLF-Talks-img .img-fluid{
       height: 100%;
+      width: auto;
+  }
+  .video-talk{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  .video{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
 
