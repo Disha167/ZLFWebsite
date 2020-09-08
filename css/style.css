@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background: #111;
+
 }
 
 a {
@@ -449,7 +451,7 @@ a{
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #acddfd;
+  border-left: 15px solid #0d6baa;
   z-index: -1;
   transform: scale(1.5);
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -496,11 +498,11 @@ a{
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #000;
+  border-left: 15px solid #111;
   z-index: 200;
   -webkit-animation: none;
   animation: none;
-  transform: scale(1.4) translateY(-6px) translateX(-2px);
+  transform: scale(2) translateY(-5px) translateX(-1px);
   border-radius: 0;
 }
 
@@ -697,7 +699,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Cta
+# Abour Us
 --------------------------------------------------------------*/
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/about_us_bg.png") fixed center center;
@@ -1379,7 +1381,7 @@ position: absolute;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #3498db;
   color: #fff;
 }
 
@@ -1438,14 +1440,31 @@ position: absolute;
   /* position: absolute; */
   right: 40px;
   text-align: center;
-  font-size: 56px;
+  font-size: 32px;
   /* top: calc(50% - 18px); */
   color: #fff;
   transition: 0.3s;
 }
+ .portfolio .all-links-p a{
+    font-size: 32px;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    padding: 10px 20px;
+    color: #3498db;
+    border: 3px solid #3498db;
+    display: inline-block;
+   
+    font-weight: 500;
+    border-radius: 60px;
+    transition:.3s;  
+ }
+ .portfolio .all-links-p a:hover{
+   background: #3498db;
+   color: #fff;
+ }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #47b2e4;
+  color: #3498db;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1459,6 +1478,7 @@ position: absolute;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+
 
 
 
