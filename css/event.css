@@ -113,7 +113,7 @@ body{
     font-weight: 700;
   }
   
-  .top-post-area .top-post-left .top-post-details .meta li a, .top-post-area .top-post-left .top-post-details .meta li .lnr {
+  .top-post-area .top-post-left .top-post-details .meta li a,.top-post-area .top-post-left .top-post-details .meta li span, .top-post-area .top-post-left .top-post-details .meta li .lnr {
     color: #3498db;
     font-weight: 600;
     font-size: 1rem;
@@ -183,9 +183,10 @@ body{
   
   .top-post-area .top-post-right .single-top-post .top-post-details .meta li {
     display: inline-block;
-    color: #fff;
+    color: #3498db;
+    font-weight: 600;
     margin-right: 10px;
-    font-weight: 300;
+   
     font-size: 12px;
   }
   
