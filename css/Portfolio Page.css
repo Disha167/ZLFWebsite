@@ -29,6 +29,10 @@
     font-size:25px ;
     font-weight: bold;
   }
+
+  .portfolio .content p{
+    margin-bottom: 0.5rem;
+  }
  /* .portfolio .content ul i {
     position: absolute;
     left: 0;
@@ -102,6 +106,7 @@
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
+
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
