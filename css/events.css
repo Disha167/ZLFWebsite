@@ -1,4 +1,21 @@
-
+body{
+  background: none;
+}
+.space-holder{
+  height: 85px;
+}
+section{
+  padding-top: 20px;
+}
+.section-title{
+  padding-bottom: 0;
+}
+.image-container{
+  min-height:200px;
+  background-image: url('../img/event.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*.events .content h2 {
     font-weight: 600;
     font-size: 26px;
@@ -39,4 +56,46 @@
     font-family: 'Parisienne', cursive;
     font-size:30px ;
     font-weight: bold;
+  }
+  @media(min-width:240px)
+  {
+    .size-vid{
+      width:144px;
+    }
+   
+  }
+  @media(min-width:400px)
+  {
+    .size-vid{
+      width:320px;
+    }
+   
+  }
+  @media(min-width:575px)
+  {
+    .size-vid{
+      width:360px;
+    }
+   
+  }
+  @media(min-width:768px)
+  {
+    .size-vid{
+      width:480px;
+    }
+   
+  }
+  @media(min-width:991px)
+  {
+    .size-vid{
+      width:720px;
+    }
+   
+  }
+  @media(min-width:1200px)
+  {
+    .size-vid{
+      width:800px;
+    }
+   
   }
