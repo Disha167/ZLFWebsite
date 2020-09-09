@@ -138,9 +138,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   padding: 10px 10px;
-  margin:2px;
+  margin:2px 0;
   transition: 0.3s;
   font-size: 14px;
+  /* font-weight: 600; */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -155,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #3498db;
   color: #fff;
   border-radius: 60px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 10px;
   padding: 10px 10px;
 }
 
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down li {
-  min-width: 180px;
+  min-width: 150px;
   position: relative;
 }
 
@@ -196,6 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   color: #fff;
+  /* font-weight: 600; */
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
