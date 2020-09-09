@@ -4,9 +4,10 @@
 # General
 --------------------------------------------------------------*/
 :root{
-  --fc-pri:#9e72c2;
+  --fc-pri:#3498db;;
   --fc-sec:#e3f1fc;
   --fc-dark:rgb(184, 183, 183);
+  --fc-background-dark:#0076c5;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -159,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #57aae1;
+  background: #0076c5;
   color: #fff;
 }
 
@@ -316,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #57aae1;
+  background: #0076c5;
   color: #fff;
 }
 
@@ -690,7 +691,7 @@ section {
   padding: 0;
   
   /* margin-top: 60px; */
-  background: var(--fc-sec)
+  background: linear-gradient(to right, var(--fc-pri),var(--fc-sec) ,var(--fc-pri)) 
 }
 .exchange p{
   line-height: 40px;
@@ -699,7 +700,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Abour Us
+# About Us
 --------------------------------------------------------------*/
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/about_us_bg.png") fixed center center;
@@ -904,7 +905,7 @@ position: absolute;
 
 .counts {
   padding-top: 80px;
-  background: var(--fc-dark);
+  background: linear-gradient(to right, #333, var(--fc-dark),#333);
   position: relative;
   z-index: -5;
 }
@@ -953,7 +954,7 @@ position: absolute;
 # Services
 --------------------------------------------------------------*/
 .services{
-  background: var(--fc-sec);
+  background: radial-gradient( var(--fc-pri),var(--fc-sec));
 }
 .services .card {
   border: 0;
@@ -1359,7 +1360,7 @@ position: absolute;
 }
 */
 #portfolio{
-  background: var(--fc-dark);
+  background: linear-gradient(to bottom right ,#333,var(--fc-dark),#333);
 }
 .portfolio #portfolio-flters {
   list-style: none;
@@ -1486,7 +1487,7 @@ position: absolute;
 # Team
 --------------------------------------------------------------*/
 .team{
-  background: var(--fc-sec);
+  background: linear-gradient(to top right,#3498db ,var(--fc-sec),#3498db);
 }
 .team .member {
   margin-bottom: 20px;
@@ -1591,7 +1592,9 @@ position: absolute;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq{
-  background:var(--fc-dark);
+  /* background:radial-gradient(var(--fc-dark),#333,var(--fc-dark),#333); */
+  background:radial-gradient(var(--fc-dark),#333);
+
 }
 .faq .faq-list {
   padding: 0 100px;
@@ -1712,7 +1715,7 @@ position: absolute;
 # Contact
 --------------------------------------------------------------*/
 .contact{
-  background: var(--fc-sec);
+  background: linear-gradient(var(--fc-sec),var(--fc-pri));
 }
 #contact {
   padding: 60px 0;
