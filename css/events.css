@@ -10,6 +10,8 @@ section{
 .section-title{
   padding-bottom: 0;
 }
+
+
 .image-container{
   min-height:200px;
   background-image: url('../img/event.jpg');
@@ -21,6 +23,13 @@ section{
     font-size: 26px;
   }*/
   
+  .events .section-title .catchy-line-in-events{
+    font-family: 'Parisienne', cursive;
+    font-size:25px ;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
   .events .content ul {
     list-style: none;
     padding: 0;

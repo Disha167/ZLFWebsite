@@ -23,6 +23,11 @@ body{
   ul{
       padding: 0;
   }
+  .events .section-title .catchy-line-in-news{
+    font-family: 'Parisienne', cursive;
+    font-size:25px ;
+    font-weight: bold;
+  }
   
 @media (max-width: 575px) {
     .top-post-area {

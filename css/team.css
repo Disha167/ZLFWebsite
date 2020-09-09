@@ -1,4 +1,8 @@
-
+.team .section-title .catchy-line-in-team{
+    font-family: 'Parisienne', cursive;
+    font-size:25px ;
+    font-weight: bold;
+  }
   
 #team {
     box-shadow: none;
