@@ -2848,6 +2848,10 @@
 [0909/060627.306:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/060627.306:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/060627.306:ERROR:crash_report_database_win.cc(469)] failed to stat report
+
+[0909/065216.230:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0909/065216.689:ERROR:exception_snapshot_win.cc(99)] thread ID 5152 not found in process
+
 [0909/060816.958:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/060816.958:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/060816.958:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -2860,6 +2864,7 @@
 [0909/062316.964:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/062316.964:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/062316.964:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0909/161659.468:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/161659.468:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/161659.468:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -2878,3 +2883,6 @@
 [0909/192317.878:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/192317.878:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0909/192317.878:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+
+>>>>>>> 0ffc1480ed439b54de0612a859c9738c605ec4ac
