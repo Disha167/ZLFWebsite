@@ -1,0 +1,42 @@
+* , ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    /* background: linear-gradient(to bottom, #111, #555); */
+    display: flex;
+    justify-content: space-between;
+}
+header .nav{
+    background: #111;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    z-index: 100;
+    
+}
+header .nav ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    
+
+}
+header .nav ul li{
+    list-style: none;
+    
+    
+}
+header .nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+header .nav ul li a:hover{
+    color: #fff;
+}
