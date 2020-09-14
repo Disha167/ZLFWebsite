@@ -3090,3 +3090,5 @@
 [0913/204758.038:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0913/204758.038:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0913/204758.038:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0914/035742.322:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0914/035742.632:ERROR:exception_snapshot_win.cc(99)] thread ID 10572 not found in process
