@@ -153,6 +153,12 @@
     .frontside .card{
         margin-bottom: 8rem;
     }
+    .frontside .card .card-body img {
+        width: 300px;
+        height: auto;
+        
+        border-radius: 50%;
+    }
 }
 @media(min-width:992px)
 {

@@ -183,6 +183,7 @@
   .title_cert{
     padding-bottom: 50px;
     margin-top: 20px;
+    display: block;
   }
   .in-news{
     margin-top: 20px;
@@ -209,6 +210,7 @@
 }
 .all_cert{
   padding-bottom: 10px;
+  
 }
   
 
