@@ -784,7 +784,7 @@ section {
 }
 
 .about .content ul li {
-  padding-left: 28px;
+  padding-left: 10px;
   font-size: 1rem;
   font-weight: 400;
   position: relative;
@@ -793,12 +793,14 @@ section {
 .about p{
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 0.1rem;
 }
+
 .about .content ul li + li {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .about .content ul i::before{
-content: "❑";
+content: "•";
 color: rgb(253, 253, 253);
 display: inline-block;
  width: 1em;

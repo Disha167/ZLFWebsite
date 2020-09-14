@@ -1,19 +1,24 @@
 .ZLF-Academy .content ul {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 ;
   }
   
   .ZLF-Academy .content ul li {
-    padding-left: 28px;
+    padding-left: 10px;
     position: relative;
   }
+
+  .ZLF-Academy .content p{
+    margin-bottom: 5px;
+  }
+  
   
   .ZLF-Academy .content ul li + li {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   
   .ZLF-Academy .content ul i::before {
-    content: "❑"; color: rgb(8, 8, 8);
+    content: "•"; color: rgb(8, 8, 8);
     display: inline-block; width: 1em;
     /*margin-left: -1em;*/
     position: absolute;
