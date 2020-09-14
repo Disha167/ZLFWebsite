@@ -1513,11 +1513,8 @@ position: absolute;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
-@media (max-width: 767px) {
-  .portfolio-item  a{
-    font-size: 24px !important;
-  }
-}
+
+
 @media (max-width: 1200px) and (min-width:991px) {
   .portfolio-item  a{
     font-size: 18px !important;
