@@ -785,10 +785,15 @@ section {
 
 .about .content ul li {
   padding-left: 28px;
+  font-size: 1rem;
+  font-weight: 400;
   position: relative;
   color: #fff;
 }
-
+.about p{
+  font-size: 1rem;
+  font-weight: 400;
+}
 .about .content ul li + li {
   margin-top: 10px;
 }
@@ -986,9 +991,9 @@ position: absolute;
 
 .services .card-body {
   z-index: 10;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255);
   /* padding: 15px 30px; */
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
   transition: 0.3s;
   transition: ease-in-out 0.4s;
   border-radius: 5px;
@@ -1382,7 +1387,10 @@ position: absolute;
 #portfolio{
   background: linear-gradient(to bottom right ,var(--fc-dark),white,var(--fc-dark));
 }
+
+
 .portfolio #portfolio-flters {
+  
   list-style: none;
   margin-bottom: 20px;
 }
@@ -1398,6 +1406,7 @@ position: absolute;
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
+ 
   font-family: "Poppins", sans-serif;
 }
 
@@ -1412,6 +1421,9 @@ position: absolute;
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
+  /* align-content: center; */
+  margin: 0 auto !important;
+  
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -1432,42 +1444,49 @@ position: absolute;
   padding: 10px 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 48px;
+/* .portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 20px;
   color: #fff;
   font-weight: 900;
   margin-bottom: 0px;
-}
+} */
 
 .portfolio .portfolio-item .portfolio-info p {
   color: #f9fcfe;
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 0;
 }
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio .portfolio-item .portfolio-info {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.portfolio .portfolio-item .portfolio-info a {
   color: #fff;
   margin: 0 auto;
-  font-size: 60px;
+  font-size: 22px;
   display: inline-block;
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+ .portfolio .portfolio-item .portfolio-info .details-link {
   /* position: absolute; */
-  right: 40px;
+  /* left: 40px;
+  right: 40px; */
   text-align: center;
-  font-size: 32px;
-  /* top: calc(50% - 18px); */
+  line-height: 40px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: cal(50% - 18px); */
   color: #fff;
   transition: 0.3s;
+  padding: 0 10px 5px 10px;
+  /* display: inline-block; */
 }
  .portfolio .all-links-p a{
-    font-size: 32px;
+    font-size: 20px;
     position: relative;
     font-family: "Raleway", sans-serif;
     padding: 10px 20px;
@@ -1499,6 +1518,16 @@ position: absolute;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+@media (max-width: 400px) {
+  .portfolio-item  a{
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 1200px) and (min-width:991px) {
+  .portfolio-item  a{
+    font-size: 18px !important;
+  }
+}
 
 
 
@@ -1515,12 +1544,18 @@ position: absolute;
   text-align: center;
   border-radius: 5px;
   background: #fff;
+  text-align: center;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  /* max-width: 300px; */
+  border-radius: 50%;
+  margin: 20px 20px 0 20px;
+  
+  text-align: center;
 }
 
 .team .member .social {
@@ -1606,6 +1641,15 @@ position: absolute;
   float: right;
 }
 
+@media(max-width:768px)
+{
+  .team .member .member-img {
+   
+    margin: 50px 50px 0 50px;
+    
+  
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -1637,7 +1681,7 @@ position: absolute;
 }
 
 .faq .faq-list a {
-  display: block;
+  display: inline;
   position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -1646,6 +1690,15 @@ position: absolute;
   padding: 0 30px;
   outline: none;
   color:#3498db;
+}
+#faq .inline-link{
+  display: inline;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 !important;
 }
 
 .faq .faq-list .icon-help {
@@ -1729,6 +1782,9 @@ position: absolute;
   .faq .faq-list {
     padding: 0;
   }
+}
+.faq span{
+  display: inline !important;
 }
 
 /*--------------------------------------------------------------
@@ -1856,7 +1912,7 @@ position: absolute;
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 20px;
 }
 
@@ -1913,7 +1969,7 @@ position: absolute;
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
@@ -1952,6 +2008,7 @@ position: absolute;
   padding: 0 0 30px 0;
   color: var(--fc-black);
   font-size: 14px;
+  border-top: 2px solid var(--fc-dark);
 }
 
 #footer .footer-top {
@@ -2049,8 +2106,9 @@ position: absolute;
 }
 
 #footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #333;
+  /* border-bottom: 1px solid #333; */
   padding: 10px 0;
+  margin-top: 10px;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -2059,6 +2117,7 @@ position: absolute;
 
 #footer .footer-top .footer-links ul a {
   color: var(--fc-pri);
+  font-size: 18px;
   padding: 5px 10px;
 
 }
@@ -2070,6 +2129,12 @@ position: absolute;
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+}
+#footer .footer-top .footer-logo img {
+  max-width: 350px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
 }
 
 #footer .footer-top .footer-contact p {
@@ -2113,7 +2178,7 @@ position: absolute;
 }
 
 
-.foot-head {
+.foot-head ,.footer-contact,.footer-links,.footer-logo{
   text-align: center;
 
 }
