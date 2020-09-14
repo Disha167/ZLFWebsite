@@ -1515,7 +1515,7 @@ position: absolute;
 }
 @media (max-width: 767px) {
   .portfolio-item  a{
-    font-size: 32px !important;
+    font-size: 28px !important;
   }
 }
 @media (max-width: 1200px) and (min-width:991px) {
