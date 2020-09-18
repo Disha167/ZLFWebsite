@@ -2256,7 +2256,7 @@ position: absolute;
 
 .foot-head h3::before, .foot-head h3::after {
   content: '';
-  width: 50px;
+  width: 30px;
   height: 2px;
   background: #3498db;
   display: inline-block;
