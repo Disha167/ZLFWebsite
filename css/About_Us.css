@@ -1,13 +1,40 @@
 .section-title{
   padding:30px 0 0 0 !important;}
 
-  @media (max-width: 768px ) and (min-width:574px) {
+   
+  @media (max-width: 574px)  and (min-width:50px){
+    #about_seperate .col-lg-6  img {
+      width: 65%;
+      text-align: center;
+      /* height: min-content; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    /*added for 1st img*/
+    #about_seperate .col-lg-12  img {
+      width: 100%;
+      text-align: center;
+      /* height: min-content; */
+      
+    }
+    /* #about_seperate .col-lg-6{
+      padding: 20px 0;
+    } */
+    .section-title h1{
+      font-size: 32px !important;
+    }
+   
+  }
+
+  @media (max-width: 768px ) and (min-width:575px) {
     #about_seperate {
       margin-top: 20px;
     }
     #about_seperate h1 {
-      font-size: 28px;
-      line-height: 36px;
+      font-size: 42px;
+      line-height: 46px;
     }
     #about_seperate h2 {
       font-size: 18px;
@@ -37,33 +64,14 @@
 
   }
 
-
-  
-  @media (max-width: 575px) {
-    #about_seperate .col-lg-6  img {
-      width: 65%;
-      text-align: center;
-      /* height: min-content; */
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      
-    }
-    /*added for 1st img*/
-    #about_seperate .col-lg-12  img {
-      width: 100%;
-      text-align: center;
-      /* height: min-content; */
-      
-    }
-    #about_seperate .col-lg-6{
-      padding: 20px 0;
-    }
+@media (max-width:991px){
+  #about_seperate .col-lg-6{
+    padding: 20px 0;
   }
+}
+ 
   @media (max-width: 1024px) and (min-width:767px){
-      #about_seperate .col-lg-6{
-        padding: 0px 0;
-      }
+      
 
       #about_seperate .col-lg-6  img {
         width: 65%;
@@ -265,11 +273,17 @@ height: 2px;
   }
 
 }
+@media (max-width:574px) and (max-width:0px){
+  .section-title h1{
+    font-size: 28px;
+  }
+}
 @media (max-width: 768px) and (min-width: 574px){
   #about_seperate h2 {
     font-size: 32px;
     line-height: 32px;}
 }
+
 
 /*bullets in certification*/
  .about_seperate .row .col-lg-6 ul {
