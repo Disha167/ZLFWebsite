@@ -270,24 +270,24 @@ height: 2px;
 }
 
 /*bullets in certification*/
- .content.cert_points ul {
+ .about_seperate .row .col-lg-6 ul {
   list-style: none;
   padding: 0;
   
 }
 
-.content.cert_points ul li {
+.about_seperate .row .col-lg-6 ul li {
   padding-left: 12px;
   position: relative;
   
   text-align: none;
 }
 
- .content.cert_points ul li + li {
+.about_seperate .row .col-lg-6 ul li + li {
   margin-top: 2px;
 }
 
-.content.cert_points ul i::before {
+.about_seperate .row .col-lg-6 ul i::before {
   content: "•"; color: rgb(8, 8, 8);
   display: inline-block; width: 1em;
   /*margin-left: -1em;*/
