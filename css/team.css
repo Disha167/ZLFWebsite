@@ -167,3 +167,9 @@
     }
 }
 
+@media (max-width:575px) and (min-width:50px)
+{
+  .section-title h1{
+    font-size: 32px !important;
+  }
+}
