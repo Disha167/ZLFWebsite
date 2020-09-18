@@ -3,6 +3,24 @@ body{
     padding: 0;
     margin: 0;
 }
+h3{
+  font-size: 19px;
+  background-color: #3498db;
+  padding: 5px 8px;
+  border-radius: 8px;
+  margin-bottom: 0 !important;
+  margin: 0 10px;
+  right: 20px;
+  left: 20px;
+}
+h5{
+  font-size: 14px;
+  background-color: #3498db;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-bottom: 0 !important;
+}
+
 .overlay-m {
     position: absolute;
     left: 15px;
@@ -86,9 +104,12 @@ body{
     color: #fff;
   }
   
+  a:hover{
+    color: #fff;
+  }
   .top-post-area .top-post-left .top-post-details h3 {
     color: #fff;
-    margin: 20px 0px;
+ 
   }
   
   @media (max-width: 767px) {
@@ -103,8 +124,12 @@ body{
     display: inline-block;
     color: #fff;
     margin-right: 10px;
+    right: 10px !important;
     font-weight: 300;
     font-size: 12px;
+  }
+  .main-news li{
+    padding-left: 10px !important;
   }
   
   @media (max-width: 414px) {
@@ -124,12 +149,12 @@ body{
     font-size: 1rem;
   }
   
-  @media (max-width: 991px) {
+  /* @media (max-width: 991px) {
     .top-post-area .top-post-left {
-      margin-bottom: 10px;
-    }
-  }
-  
+      /* margin-bottom: 10px; */
+    /* } */
+  /* } */ 
+  /*  */
   .top-post-area .top-post-right .single-top-post {
     position: relative;
   }
@@ -147,7 +172,7 @@ body{
   }
   
   .top-post-area .top-post-right .single-top-post .feature-image-thumb .overlay-bg {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(20, 20, 20, 0.4);
   }
   
   .top-post-area .top-post-right .single-top-post:hover .feature-image-thumb img {
@@ -179,7 +204,7 @@ body{
   }
   
   @media (max-width: 767px) {
-    .top-post-area .top-post-right .single-top-post .top-post-details h4 {
+    .top-post-area .top-post-right .single-top-post .top-post-details h4,h3,h5 {
       font-size: 14px;
       margin-bottom: 5px;
       margin-top: 5px;
