@@ -165,7 +165,7 @@
   .about_seperate .content p{
     padding:0 20px ;
   }
-
+0
   .main-title{
     font-weight: 600;
     font-display: block;
@@ -267,4 +267,34 @@ height: 2px;
   #about_seperate h2 {
     font-size: 32px;
     line-height: 32px;}
+}
+
+/*bullets in certification*/
+ .content.cert_points ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.content.cert_points ul li {
+  padding-left: 12px;
+  position: relative;
+  
+  text-align: none;
+}
+
+ .content.cert_points ul li + li {
+  margin-top: 2px;
+}
+
+.content.cert_points ul i::before {
+  content: "•"; color: rgb(8, 8, 8);
+  display: inline-block; width: 1em;
+  /*margin-left: -1em;*/
+  position: absolute;
+  left: 0;
+  top: 2px;
+  right:0;
+  line-height: 1;
+  font-size: 20px;
 }
