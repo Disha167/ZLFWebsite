@@ -82,6 +82,7 @@ body{
 }
 .portfolio #portfolio-flters a {
   color:#000;
+  display: inline-block;
 }
 .portfolio #portfolio-flters a:hover {
   color:#fff;

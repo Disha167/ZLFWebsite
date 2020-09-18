@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 h3{
-  font-size: 19px;
+  font-size: 24px;
   background-color: #3498db;
   padding: 5px 8px;
   border-radius: 8px;
@@ -14,7 +14,7 @@ h3{
   left: 20px;
 }
 h5{
-  font-size: 14px;
+  font-size: 16px;
   background-color: #3498db;
   padding: 2px 5px;
   border-radius: 5px;
@@ -64,7 +64,7 @@ h5{
   }
   
   .top-post-area .top-post-left .feature-image-thumb .overlay-bg {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, .4);
   }
   
   .top-post-area .top-post-left .feature-image-thumb img {
@@ -84,12 +84,18 @@ h5{
     bottom: 30px;
     left: 40px;
   }
-  
+  @media (max-width: 991px) and (min-width:768px){
+    
+    .below_main{
+      padding-top: 25px !important;
+    }
+  }
   @media (max-width: 767px) {
     .top-post-area .top-post-left .top-post-details {
       bottom: 10px;
       left: 15px;
     }
+    
   }
   
   .top-post-area .top-post-left .top-post-details .tags li {
@@ -172,7 +178,7 @@ h5{
   }
   
   .top-post-area .top-post-right .single-top-post .feature-image-thumb .overlay-bg {
-    background: rgba(20, 20, 20, 0.4);
+    background: rgba(20, 20, 20, 0.6);
   }
   
   .top-post-area .top-post-right .single-top-post:hover .feature-image-thumb img {

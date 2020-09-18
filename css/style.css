@@ -1015,7 +1015,7 @@ position: absolute;
   }
 }
 .ser-img:hover{
-  z-index: 1000;
+  z-index: 2;
   animation: heartbeat 1.5s ease-in-out infinite alternate-reverse both;
 
 }
@@ -2089,6 +2089,7 @@ position: absolute;
   color: var(--fc-black);
   font-size: 14px;
   border-top: 2px solid var(--fc-dark);
+  /* font-family: sans-serif ; */
 }
 
 #footer .footer-top {
@@ -2116,7 +2117,7 @@ position: absolute;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "open-sans" ,"Montserrat" ,sans-serif;
   color: var(--fc-black);
 }
 
@@ -2298,4 +2299,7 @@ position: absolute;
 }
 .mail-foot{
   color: #3498db;
+}
+.address{
+  padding: 0 !important;
 }

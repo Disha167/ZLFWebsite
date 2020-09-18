@@ -40,7 +40,9 @@ section{
     position: relative;
     display: inline-block;
   }
-
+.size-vid{
+  min-width: 360px;
+}
   .events .content ul li a{
       color: #3498db;
   }
