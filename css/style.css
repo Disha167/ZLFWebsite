@@ -2146,7 +2146,7 @@ position: absolute;
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #footer .footer-top .footer-logo img {
   max-width: 350px;
@@ -2156,11 +2156,13 @@ position: absolute;
 }
 
 #footer .footer-top .footer-contact p {
-  line-height: 26px;
+  line-height: 18px;
+  font-size: 12px;
 }
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+  
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
