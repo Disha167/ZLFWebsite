@@ -35,7 +35,7 @@ body{
   }
 
   .portfolio .content p{
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.1rem;
   }
  /* .portfolio .content ul i {
     position: absolute;
@@ -75,7 +75,7 @@ body{
   border: 2px solid #3498db;
 }
 .portfolio #portfolio-flters {
-  padding: 0;
+  padding-bottom: 15px;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
@@ -214,4 +214,8 @@ h2{
 /*added to over-write in built css background*/
 body{
   background: #fff;
+}
+
+.portfolio #Zillion .row.content{
+  margin-bottom: 15px;
 }
