@@ -1867,6 +1867,18 @@ position: absolute;
   display: inline !important;
 }
 
+@media(max-width: 575px)
+{
+  .faq .faq-list a.collapsed .icon-show {
+    /*position: absolute;
+   
+    top:0;
+    right: 0;
+   */
+   display: none;
+
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
