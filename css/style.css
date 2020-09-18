@@ -994,6 +994,48 @@ position: absolute;
 .services{
   background: radial-gradient( var(--fc-sec),var(--fc-whi));
 }
+.ser-img{
+  display: block;
+  margin: 0 auto;
+}
+.ser-img img{
+  display: block;
+  height: auto;
+  min-width: 175px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media(max-width:575px)
+{
+  .ser-img img{
+  
+    max-width: 300px;
+   
+  }
+}
+.ser-img:hover{
+  animation: heartbeat 1s ease-in-out infinite alternate-reverse both;
+
+}
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( 1 );
+  }
+
+  50%
+  {
+    transform: scale( 1.2);
+  }
+  
+  100%
+  {
+    transform: scale( 1 );
+  }
+}
+
 .services .card {
   border: 0;
   /* padding: 20px 20px 20px 20px; */
